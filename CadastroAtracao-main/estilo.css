@@ -1,0 +1,104 @@
+body {
+  font-family: Helvetica, sans-serif;
+  background-image: url("./imagem/fundolaranaja.jpg");
+}
+
+#conteudo {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 0%;
+  padding: 2%;
+  border-radius: 0px 15px 15px 15px;
+  margin-bottom: 3%;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 0px 15px 15px 0px;
+  box-sizing: border-box;
+  display: block;
+  font-size: 18px;
+  color: #393939;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 15px;
+  margin: 8px 0;
+  margin-left: 15px;
+  border: none;
+  border-radius: 15px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+div {
+  background-color: #f2f2f2;
+  padding: 2px;
+}
+#coluna2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+#sexo {
+  width: 50%;
+}
+
+#numero {
+  width: 20%;
+}
+
+p {
+  text-align: left;
+  color: #f2f2f2;
+  white-space: nowrap;
+  padding: 8px 15px;
+  margin: 8px 0;
+  display: inline-block;
+  box-sizing: border-box;
+  border-radius: 15px 0px 0px 15px;
+  background: #ff9641;
+  margin-left: 15px;
+}
+
+h1 {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 0%;
+  color: #f2f2f2;
+  white-space: nowrap;
+  padding: 12px 20px;
+  display: inline-block;
+  box-sizing: border-box;
+  border-radius: 15px 15px 0px 0px;
+  background: #0070c0;
+}
+
+#rodape {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 0%;
+  padding: 0.5%;
+  border-radius: 15px;
+  margin-bottom: 3%;
+  text-align: center;
+}
+
+#imggithub {
+  width: 40px;
+}
+
+#txtrodape {
+  color: black;
+}
